@@ -1,7 +1,7 @@
 #include <WiFi101.h>
 #include <WifiUdp.h>
 
-#define SERIAL_MESSAGE_SIZE 4
+#define SERIAL_MESSAGE_SIZE 17
 #define SERIAL_TERMINATE_CHAR '\r'
 #define SERIAL_BUFFER_SIZE 64
 #define SERIAL_BAUD_RATE 9600
