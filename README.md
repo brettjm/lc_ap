@@ -8,9 +8,10 @@ Arduino listens for UART input data in the form of 16 bytes followed by a termin
 Wiring configuration is based on the [Adafruit Wiring Page](https://learn.adafruit.com/adafruit-atwinc1500-wifi-module-breakout/wiring-and-test).
 
 ## How to use
-Connect to 'atmelwifi', use password: '1234567890'
+Connect to `atmelwifi`, use password: `1234567890`
 To initiate UDP connection, open terminal and type the following:
-> nc -u 192.168.1.1 80
-once connection is established, send the first byte
-by typing any one character and pressing enter
+```
+nc -u 192.168.1.1 80
+```
+Once connection is established, send the first byte by typing any one character and pressing enter.
 
